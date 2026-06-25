@@ -1,0 +1,74 @@
+.contact__tagline {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 36px;
+}
+
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.contact__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 12px 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.contact__link:hover {
+  color: var(--accent-light);
+  border-color: var(--accent);
+  background: rgba(59, 130, 246, 0.06);
+  transform: translateY(-2px);
+}
+
+/* Revealed email row */
+.contact__email-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+}
+
+.contact__email-text {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent-light);
+  user-select: all;
+}
+
+.contact__icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.contact__icon-btn:hover {
+  color: var(--accent-light);
+  border-color: var(--accent);
+  background: rgba(59, 130, 246, 0.15);
+}
