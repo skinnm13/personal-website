@@ -31,7 +31,7 @@ export default function Contact() {
         <div ref={ref} className="fade-in">
           <p className="section-label">// get in touch</p>
           <h2 className="section-title">Contact</h2>
-          <p className="contact__tagline">Open to new grad roles and co-op opportunities.</p>
+          <p className="contact__tagline">Open to new grad roles and junior engineer opportunities.</p>
           <div className="contact__links">
 
             {/* Email — two-step reveal to block scrapers */}

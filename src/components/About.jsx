@@ -17,7 +17,7 @@ export default function About() {
           <h2 className="section-title">Who I Am</h2>
           <div className="about__body">
             <p className="about__para">
-              I'm a Computer Engineering student at McMaster University with hands-on co-op experience
+              I'm a Computer Engineering Graduate from McMaster University with hands-on co-op experience
               building cloud automation pipelines, embedded real-time systems, and security compliance
               frameworks. I'm drawn to work that sits at the boundary of hardware and software — from
               writing firmware for ADC acquisition pipelines to deploying event-driven AWS Lambda
